@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.menu {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 25px;
+  right: 1350px;
+}
+.nav {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  box-shadow: 0px 0px 10px grey;
+  padding: 5px;
+  justify-content: center;
+}
+.logo {
+  position: relative;
+  right: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  position: relative;
+  margin-top: 20px;
+  bottom: 10px;
+  color: rgb(254, 255, 255);
+  padding: 10px;
+}
+#droplist {
+  width: 240px;
+  border: 2px solid rgb(57, 57, 57);
+  height: 100vh;
+  position: absolute;
+  bottom: 1px;
+  background-color: rgb(57, 57, 57);
+  display: none;
+}
+
+.playstore {
+  background-color: rgba(254, 0, 0, 0.747);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: rgba(245, 237, 237, 0.905);
+  height: 60px;
+  justify-content: space-around;
+  margin: 50px 300px 10px 300px;
+  box-shadow: 0px 0px 5px black;
+}
+
+#newscontainer {
+  display: flex;
+  margin: 20px 275px auto;
+}
+.atag {
+  color: black;
+  text-decoration: none;
+}
+.share {
+  padding: 10px;
+}
+
+.h5 {
+  padding-top: 10px;
+  font-weight: 100;
+}
+
+.content {
+  padding: 15px;
+}
+li:hover {
+  cursor: pointer;
+}
+
+button {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px black;
+  padding: 10px;
+  left: 660px;
+}
+
+.bottom {
+  background-color: rgb(29, 28, 28);
+  text-align: center;
+  margin-top: 23px;
+  color: white;
+  padding: 20px;
+}
+
+.creatorname {
+  border-bottom: 2px solid white;
+  padding: 20px;
+}
+
+.icons i {
+  color: white;
+  font-size: 36px;
+  padding: 40px;
+}
+
+
+
+
+@media (max-width:1200px){
+
+  .menu {
+    right: 1100px;
+  }
+  .logo {
+    position: relative;
+    right: 10px;
+  }
+
+  .playstore {
+    margin: 50px 300px 10px 300px;
+  }
+
+  
+  .playimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .best{
+    text-align: center;
+  }
+
+  #newscontainer {
+    display: flex;
+    margin: 20px 148px auto;
+  }
+
+  button {
+    left: 540px;
+  }
+
+  #droplist {
+    width: 190px;
+}
+}
+
+@media (max-width:990px){
+
+  .menu {
+    right: 900px;
+  }
+  .logo {
+    position: relative;
+   left: 20px;
+  }
+
+  .playstore {
+    margin: 50px 300px 10px 200px;
+    width: 600px;
+  }
+
+  
+  .playimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .best{
+    text-align: center;
+  }
+
+  #newscontainer {
+    display: flex;
+    margin: 20px 42px auto;
+  }
+
+  button {
+    left: 440px;
+  }
+
+  #droplist {
+    width: 230px;
+}
+}
+
+
+
+@media (max-width:800px){
+
+  .menu {
+    right: 700px;
+  }
+  .logo {
+    position: relative;
+   left: 20px;
+  }
+
+  .playstore {
+    margin: 50px 300px 10px 128px;
+    width: 600px;
+  }
+
+  
+  .playimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .best{
+    text-align: center;
+  }
+
+  #newscontainer {
+    display: flex;
+    margin: 20px 0px 20px -10px;
+    
+
+  }
+
+  button {
+    left: 390px;
+  }
+
+  #droplist {
+    width: 230px;
+}
+
+.nav {
+  width: 870px;
+}
+
+#droplist {
+ position: absolute;
+ height: 1300px;
+ top:0px;
+}
+
+.bottom{
+  width: 870px;
+}
+
+
+}
+
+
+@media (max-width:600px){
+
+  .menu {
+    right: 500px;
+  }
+  .logo {
+    position: relative;
+   left: 20px;
+  }
+
+  .playstore {
+    margin: 50px 300px 10px 128px;
+    width: 600px;
+  }
+
+  
+  .playimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .best{
+    text-align: center;
+  }
+
+  #newscontainer {
+    display: flex;
+    margin: 20px 0px 20px -10px;
+    
+
+  }
+
+  button {
+    left: 390px;
+  }
+
+  #droplist {
+    width: 230px;
+   
+   
+}
+
+.nav {
+  width: 870px;
+}
+
+#droplist {
+ position: absolute;
+ height: 1300px;
+ top:0px;
+}
+
+.bottom{
+  width: 870px;
+}
+
+
+}
+
+
+@media (max-width:480px){
+
+  .menu {
+    right: 300px;
+  }
+}
+
+
